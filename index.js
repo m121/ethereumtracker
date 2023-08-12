@@ -3,7 +3,7 @@ const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 const axios = require('axios');
-const ALCHEMY_API_KEY = 'DAoIVPAyeck0R2Z8HCzbwKEZiE85hdYl'; // Replace with your Alchemy API key
+const ALCHEMY_API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXX'; // Replace with your Alchemy API key
 
 const { createAlchemyWeb3 } = require('@alch/alchemy-web3');
 const web3 = createAlchemyWeb3("wss://eth-mainnet.ws.alchemyapi.io/ws/"+ALCHEMY_API_KEY);
